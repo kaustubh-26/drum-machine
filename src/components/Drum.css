@@ -1,0 +1,7 @@
+.drum-pad {
+  @apply w-16 h-16 bg-[#4d4b4b] p-2 ml-2 mr-2 mt-6 rounded-md border-[#2f2f2f] transition-all ease-in-out delay-75 shadow-element-shadow;
+}
+
+.drum-pad:active {
+  @apply translate-x-[4px] translate-y-[4px];
+}
